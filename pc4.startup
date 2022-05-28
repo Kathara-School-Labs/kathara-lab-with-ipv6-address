@@ -1,0 +1,2 @@
+ip -6 addr add fd00:DB8:0:5::301/64 dev eth0
+ip -6 route add default via fd00:DB8:0:5::1 dev eth0
